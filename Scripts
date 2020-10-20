@@ -3,3 +3,6 @@ npm install -g hana-cli
 
 npm i -g @sap/cds-dk
 cds help init
+
+npm install #in the project folder
+cds build #from the project
