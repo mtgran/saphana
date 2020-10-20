@@ -2,3 +2,4 @@
 npm install -g hana-cli
 
 npm i -g @sap/cds-dk
+cds help init
