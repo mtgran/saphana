@@ -6,3 +6,18 @@ cds help init
 
 npm install #in the project folder
 cds build #from the project
+
+hana-cli help
+cf create-service hana hdi-shared demoprj2
+cf services
+
+--
+#create service key
+cf create-service-key demoprj2 default
+
+hana-cli serviceKey demoprj2 default
+
+#npm run env
+#npm install #from the db folder
+--
+
